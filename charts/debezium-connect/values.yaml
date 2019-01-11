@@ -15,7 +15,7 @@ config:
   groupId: 1
   configStorageTopic: my_connect_configs
   offsetStorageTopic: my_connect_offsets
-  bootstrapServers: kafka.kubeless:9092
+  bootstrapServers: kafka-kafka-headless:9092
 #resources:
 #  limits:
 #    cpu: 100m
